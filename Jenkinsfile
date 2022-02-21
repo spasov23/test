@@ -10,7 +10,7 @@ pipeline {
         }
         stage('Stage 1') {
             steps {
-                echo "{DOMAIN}"
+                echo "${DOMAIN}"
             }
         }
         stage('Stage 2') {
