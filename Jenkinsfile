@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('prepare env') {
             steps {
-                load "${WORKSPACE}//Custom.yml"
+                load "${WORKSPACE}/Custom.yml"
                 echo "stage 1"
             }
         }
