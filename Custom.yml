@@ -1,9 +1,9 @@
-  timeZone: 'Europe/Berlin'
-  job: 'Nightly'
-  DOMAIN: 'VC'
-  PROJECT: 'CAL'
-  PROJECT_ALT: '---'
-  LINE: 'V223'
-  credentialsRTC: 'eol_user'
-  credentialsOSS: 'eol_fossid_key'
-  sourceCompileCommand: "texec -useenv:_common aeee_pro/2017.2.1 -cdgb rebuild -m EOL -p %CD%"
+timeZone: 'Europe/Berlin'
+job: 'Nightly'
+DOMAIN: 'VC'
+PROJECT: 'CAL'
+PROJECT_ALT: '---'
+LINE: 'V223'
+credentialsRTC: 'eol_user'
+credentialsOSS: 'eol_fossid_key'
+sourceCompileCommand: "texec -useenv:_common aeee_pro/2017.2.1 -cdgb rebuild -m EOL -p %CD%"
